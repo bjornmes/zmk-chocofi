@@ -17,6 +17,16 @@
             key-positions = <14 15>;
             layers = <0>;
         };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <10 22>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <1 13>;
+        };
     };
 
     keymap {
