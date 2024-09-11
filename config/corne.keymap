@@ -21,41 +21,49 @@
         leftPare {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <16 15>;
+            layers = <0>;
         };
 
         rightPare {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <19 20>;
+            layers = <0>;
         };
 
         rechterBlokhaak {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <20 21>;
+            layers = <0>;
         };
 
         tilde {
             bindings = <&kp TILDE>;
             key-positions = <27 26>;
+            layers = <0>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
             key-positions = <28 27>;
+            layers = <0>;
         };
 
         backslash {
             bindings = <&kp NON_US_BACKSLASH>;
             key-positions = <31 32>;
+            layers = <0>;
         };
 
         puntKomma {
             bindings = <&kp SEMICOLON>;
             key-positions = <7 8>;
+            layers = <0>;
         };
 
         pipe {
             bindings = <&kp PIPE>;
             key-positions = <32 33>;
+            layers = <0>;
         };
     };
 
