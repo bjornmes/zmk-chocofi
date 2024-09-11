@@ -18,14 +18,39 @@
             layers = <0>;
         };
 
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <10 22>;
+        leftPare {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <16 15>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <1 13>;
+        rightPare {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <19 20>;
+        };
+
+        rechterBlokhaak {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <20 21>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <27 26>;
+        };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <28 27>;
+        };
+
+        backslash {
+            bindings = <&kp NON_US_BACKSLASH>;
+            key-positions = <31 32>;
+        };
+
+        puntKomma {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <7 8>;
         };
     };
 
