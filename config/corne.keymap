@@ -67,16 +67,6 @@
         };
     };
 
-    macros {
-        lower: lower {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp BACKSPACE>, <&macro_press>;
-
-            label = "LOWER";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
