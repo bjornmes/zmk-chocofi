@@ -85,5 +85,5 @@ conditional_layers {
 };
 
 // Dit is een fix van https://www.reddit.com/r/ErgoMechKeyboards/comments/yisksy/comment/j4qu9h0/
-
-&nice_view_spi { cs-gpios = <&pro_micro 0 GPIO_ACTIVE_HIGH>; };
+// en is alleen voor de miniCorne
+//&nice_view_spi { cs-gpios = <&pro_micro 0 GPIO_ACTIVE_HIGH>; };
